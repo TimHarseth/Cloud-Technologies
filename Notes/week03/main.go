@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
+	var x int = rand.Int()
+	fmt.Println(x)
+	
 }
