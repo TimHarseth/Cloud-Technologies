@@ -9,5 +9,5 @@ type Student struct {
 }
 
 func (s *Student) String() string {
-	return "Student with name " + s.Name + " and age " + strconv.Itoa(s.Age)
+	return "Student name: " + s.Name + " age: " + strconv.Itoa(s.Age) + " studentID: " + s.StudentID
 }
